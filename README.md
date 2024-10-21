@@ -17,3 +17,5 @@ In our repository, there are folders for the data, scripts, and output. The orig
 5. Upload these files to Google Colab (https://colab.research.google.com/). This is where the code will be run.
 6. Open the ___ file in Colab. Run the code by selecting "Runtime -> Run All" in the Colab tool menu. This will install all of the needed packages, clean the data, and then implement ___.
 7. Open and run the code in the ___ (hypothesis testin) file.
+
+# References
