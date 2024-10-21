@@ -19,4 +19,5 @@ In our repository, there are folders for the data, scripts, and output. The orig
 7. Open and run the code in the ___ (hypothesis testin) file.
 
 # References
+https://www.analyticsvidhya.com/blog/2021/08/vector-autoregressive-model-in-python/
 https://www.analyticsvidhya.com/blog/2021/06/statistical-tests-to-check-stationarity-in-time-series-part-1/#:~:text=There%20are%20various%20statistical%20tests,unit%20root%20in%20the%20data. 
