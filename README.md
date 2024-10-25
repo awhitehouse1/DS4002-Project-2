@@ -8,7 +8,7 @@ In our repository, there are folders for the data, scripts, and output. The orig
 - In the Data folder:
   - democracy-index-eiu.csv: Original data source for democracy index scores
   - gdp_per_capita.csv: Original data source for GDP per capita
-  - obtain_data.pdf: Contains link and instructions for downloading the original data source for the COVID-19 time series data
+  - obtaining_covid_data.pdf: Contains link and instructions for downloading the original data source for the COVID-19 time series data
   - NEW_time_series_data.csv: Processed and cleaned data that includes the number of deaths per million per day, from 1/22/2020 to 1/22/2022, by country. It also includes the GDP per capita and democracy score for each country on the particular day.
   - DataAppendix.pdf: includes tables, figures, and other descriptive statistics about the data
 - In the Scripts folder:
@@ -21,7 +21,7 @@ In our repository, there are folders for the data, scripts, and output. The orig
 1. Navigate to the Scripts folder of our repository, where you will see multiple Python notebook scripts.
 2. Download the NEWCode_10_25.ipynb file. This is the file neede to run the VAR and SARIMAX models.
 3. Download the ____ file. This is the file needed to run the hypothesis testing.
-4. Navigate to the Data folder of our repository and download the NEW_time_series_data.csv file. Then click on the obtain_data pdf and follow the instructions to download the COVID-19 time series data. This is the data that is needed to run the code.
+4. Navigate to the Data folder of our repository and download the NEW_time_series_data.csv file. Then click on the obtaining_covid_data pdf and follow the instructions to download the COVID-19 time series data. This is the data that is needed to run the code.
 6. Upload these files to Google Colab (https://colab.research.google.com/). This is where the code will be run.
 7. Open the NEWCode_10_25 file in Colab. Make sure that the filepaths for the datasets, located at the beginning of the file, are where you have the code stored on your local machined. Run the code by selecting "Runtime -> Run All" in the Colab tool menu. This will install all of the needed packages and then implement the ARIMA and ARIMAX models.
 8. Open and run the code in the ___ (hypothesis testin) file.
