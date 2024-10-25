@@ -16,6 +16,9 @@ In our repository, there are folders for the data, scripts, and output. The orig
   - Final_EDA.ipynb: code used for exploratory data analysis
   - NEWCode_10_25.ipynb: code used to run our ARIMA and ARIMAX time series models
 - In the Output folder:
+  - ARIMAX_UnitedStates_covid_gdp_democracyScore.png: includes a plot of the ARIMAX forecast for the United States
+  - ARIMAX_error_metrics_table.png: includes error metrics for our ARIMAX model, such as mean absolute error and mean squared error
+  - ARIMA_by_country.pdf: includes plots of the ARIMA model forecasts for all 20 countries used in our analysis
 
 # Section 3: Instructions for reproducing our results
 1. Navigate to the Scripts folder of our repository, where you will see multiple Python notebook scripts.
