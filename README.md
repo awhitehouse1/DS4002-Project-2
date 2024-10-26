@@ -12,9 +12,10 @@ In our repository, there are folders for the data, scripts, and output. The orig
   - NEW_time_series_data.csv: Processed and cleaned data that includes the number of deaths per million per day, from 1/22/2020 to 1/22/2022, by country. It also includes the GDP per capita and democracy score for each country on the particular day.
   - DataAppendix.pdf: includes tables, figures, and other descriptive statistics about the data
 - In the Scripts folder:
-  - Final_Cleaning.ipynb: code used to clean and merge our input data into our analysis file 'NEW_time_series_data.csv'
-  - Final_EDA.ipynb: code used for exploratory data analysis
-  - NEWCode_10_25.ipynb: code used to run our ARIMA and ARIMAX time series models
+  - Final_Cleaning.ipynb: Code used to clean and merge our input data into our analysis file 'NEW_time_series_data.csv'
+  - Final_EDA.ipynb: Code used for exploratory data analysis
+  - VAR.ipynb: Code used to run our Vector Autoregression model
+  - ARIMA_(X)_Analysis.ipynb: Code used to run our ARIMA and ARIMAX models
 - In the Output folder:
   - ARIMAX_UnitedStates_covid_gdp_democracyScore.png: includes a plot of the ARIMAX forecast for the United States
   - ARIMAX_error_metrics_table.png: includes error metrics for our ARIMAX model, such as mean absolute error and mean squared error
@@ -22,13 +23,14 @@ In our repository, there are folders for the data, scripts, and output. The orig
 
 # Section 3: Instructions for reproducing our results
 1. Navigate to the Scripts folder of our repository, where you will see multiple Python notebook scripts.
-2. Download the NEWCode_10_25.ipynb file. This is the file neede to run the VAR and SARIMAX models.
-3. Download the ____ file. This is the file needed to run the hypothesis testing.
-4. Navigate to the Data folder of our repository and download the NEW_time_series_data.csv file. Then click on the obtaining_covid_data pdf and follow the instructions to download the COVID-19 time series data. This is the data that is needed to run the code.
+2. Download the VAR.ipynb file. This is the file needed to run the VAR model. 
+3. Download the ARIMA_(X)_Analysis.ipynb file. This is the file needed to run the ARIMA and ARIMAX models after the VAR model. 
+4. Navigate to the Data folder of our repository and download the NEW_time_series_data.csv file. Then click on the obtaining_covid_data pdf and follow the instructions to download the COVID-19 time series data. This is the data that is needed to run the code. 
 6. Upload these files to Google Colab (https://colab.research.google.com/). This is where the code will be run.
-7. Open the NEWCode_10_25 file in Colab. Make sure that the filepaths for the datasets, located at the beginning of the file, are where you have the code stored on your local machined. Run the code by selecting "Runtime -> Run All" in the Colab tool menu. This will install all of the needed packages and then implement the ARIMA and ARIMAX models.
-8. Open and run the code in the ___ (hypothesis testin) file.
+7. Open the VAR.ipynb file in Colab. Make sure that the filepaths for the datasets, located at the beginning of the file, are where you have the code stored on your local machined. Run the code by selecting "Runtime -> Run All" in the Colab tool menu. This will install all of the needed packages and then implement the VAR model.
+8. Next, open the ARIMA_(X)_Analysis.ipynb file to run the final part of the analysis. 
 
 # References
+https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
 https://www.analyticsvidhya.com/blog/2021/08/vector-autoregressive-model-in-python/
 https://www.analyticsvidhya.com/blog/2021/06/statistical-tests-to-check-stationarity-in-time-series-part-1/#:~:text=There%20are%20various%20statistical%20tests,unit%20root%20in%20the%20data. 
